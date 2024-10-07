@@ -1,0 +1,4 @@
+import pandas as pd
+
+score1=pd.read_csv('/content/중간기말성적.csv',encoding='EUC-KR') #csv는 인코딩 필수, 엑셀은 인코딩 x
+score1.head()
